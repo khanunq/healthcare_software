@@ -77,7 +77,7 @@ public class bill extends JFrame implements ActionListener {
             try {
                 String url = "jdbc:mysql://localhost:3306/hospital";
                 String userName = "root";
-                String password = "diu4avLo@";
+                String password = "pass";
                 Connection connection = DriverManager.getConnection(url, userName, password);
                 String sql = "INSERT INTO bill (ward_fee, service_fee, doctor_fee, total_fee, patient_id) VALUES ( ?, ?, ?, ?, ?)";
                 PreparedStatement preparedStatement = connection.prepareStatement(sql);
