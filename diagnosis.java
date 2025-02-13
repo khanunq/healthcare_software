@@ -143,7 +143,7 @@ public void actionPerformed(ActionEvent e) {
         try {
             String url = "jdbc:mysql://localhost:3306/hospital";
             String userName = "root";
-            String password = "diu4avLo@";
+            String password = "pass";
             Connection connection = DriverManager.getConnection(url, userName, password);
             String id = jTextField1.getText();
             String sql1 = "SELECT name,contact,age,sex,disease FROM patient WHERE patient_id = "+id;
