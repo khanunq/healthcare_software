@@ -172,7 +172,7 @@ public void table2(){
 public void table3(){
     String url = "jdbc:mysql://localhost:3306/hospital";
         String userName = "root";
-        String password = "diu4avLo@";
+        String password = "pass";
         try {
             Connection connection = DriverManager.getConnection(url, userName, password);
             String id = jTextField.getText();
