@@ -102,7 +102,7 @@ public class history1 extends JFrame implements ActionListener{
     public void actionPerformed(ActionEvent e) {
         String url = "jdbc:mysql://localhost:3306/hospital";
         String userName = "root";
-        String password = "diu4avLo@";
+        String password = "pass";
         if(e.getSource()==jButton2){
         try {
             Connection connection = DriverManager.getConnection(url, userName, password);
@@ -144,7 +144,7 @@ public class history1 extends JFrame implements ActionListener{
 public void table2(){
     String url = "jdbc:mysql://localhost:3306/hospital";
         String userName = "root";
-        String password = "diu4avLo@";
+        String password = "pass";
         try {
             Connection connection = DriverManager.getConnection(url, userName, password);
             String id = jTextField.getText();
